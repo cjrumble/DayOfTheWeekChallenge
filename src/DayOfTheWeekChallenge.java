@@ -3,6 +3,9 @@ public class DayOfTheWeekChallenge {
     public static void printDayOfTheWeek (int day) {
 
 //        switch(day) {
+//            case 0:
+//                System.out.println("Sunday");
+//                break;
 //            case 1:
 //                System.out.println("Monday");
 //                break;
@@ -21,15 +24,15 @@ public class DayOfTheWeekChallenge {
 //            case 6:
 //                System.out.println("Saturday");
 //                break;
-//            case 7:
-//                System.out.println("Sunday");
-//                break;
+
 //            default:
 //                System.out.println("Invalid day");
 //                break;
 //        }
 
-        if (day == 1) {
+    if (day == 0) {
+        System.out.println("Sunday");
+        } else if (day == 1) {
             System.out.println("Monday");
         } else if (day == 2) {
             System.out.println("Tuesday");
@@ -41,8 +44,7 @@ public class DayOfTheWeekChallenge {
             System.out.println("Friday");
         } else if (day == 6) {
             System.out.println("Saturday");
-        } else if (day == 7) {
-            System.out.println("Sunday");
+
         } else {
             System.out.println("Invalid day");
         }
